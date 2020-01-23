@@ -1,11 +1,5 @@
-# Computer Vision Workshops with AWS
+# Object Detection with AWS: A Demo with Boots and Cats
 
-A set of examples for computer vision use cases on AWS (SageMaker, Ground Truth, Rekognition, etc).
+This workshop sample demonstrates ways to tackle the **object detection** (bounding box) computer vision problem using AI/ML tools on the AWS Cloud.
 
-These workshops are created for demonstration/education purposes only and are not official AWS samples: Check out the [AWS Samples GitHub](https://github.com/aws-samples) and [AWS Solutions page](https://aws.amazon.com/solutions/) for official content.
-
-## Contents
-
-* [gt_object_det](gt_object_det): Object detection (bounding boxes) using SageMaker Ground Truth for image labelling, and exploring Rekognition and SageMaker for model fitting
-* [mxnet_gluon_mnist](mxnet_gluon_mnist): Image classification on MNIST Digits hand-written numbers data set with MXNet GluonCV
-* [tf_script_mode](tf_script_mode): TensorFlow model training and serving with SageMaker (also on MNIST Digits)
+It's presented as a series of [notebooks](https://en.wikipedia.org/wiki/Notebook_interface) designed to be run in [Amazon SageMaker](https://aws.amazon.com/sagemaker/). For help getting started, see the SageMaker guides on [Using Amazon SageMaker Notebook Instances](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html), and [Associating Git Repositories with Amazon SageMaker Notebook Instances](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi-git-repo.html).
